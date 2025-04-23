@@ -1,6 +1,6 @@
 import axios from "axios";
 export const axiosInstance = axios.create({
-    baseURL:"http://ec2-13-48-25-139.eu-north-1.compute.amazonaws.com/api",
+    baseURL:"http://13.48.25.139:5000/api",
     withCredentials:true,
 
 })
